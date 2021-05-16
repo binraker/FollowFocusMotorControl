@@ -3,7 +3,7 @@ Controlling Zhiyun crane 2 follow focus motor model CMF-01 with arduino
 
 The Zhiyun crane 2 follow focus motors are cheap (at time of writing) and provide all the hardware you need to quietly drive a lens. They use a proprietary coms protocol that is similar to XModem.
 
-This work shows a simple hack https://www.youtube.com/watch?v=plnVgDFxTQg, https://www.instructables.com/35-Wireless-Follow-Focus-From-the-Crane-2/  but provides no code so this is my attempt to do somehting similar.
+This was inspired by this work which shows a simple hack https://www.youtube.com/watch?v=plnVgDFxTQg, https://www.instructables.com/35-Wireless-Follow-Focus-From-the-Crane-2/ but there is no code so this is my attempt to do something similar.
 
 Not in the above it suggests a different pinout to what I found worked.
 
