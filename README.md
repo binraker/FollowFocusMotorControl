@@ -5,7 +5,7 @@ The Zhiyun crane 2 follow focus motors are cheap (at time of writing) and provid
 
 This was inspired by this work which shows a simple hack https://www.youtube.com/watch?v=plnVgDFxTQg, https://www.instructables.com/35-Wireless-Follow-Focus-From-the-Crane-2/ but there is no code so this is my attempt to do something similar.
 
-Not in the above it suggests a different pinout to what I found worked.
+Note in the above it suggests a different pinout to what I found worked.
 
 For "reasons'' they have used a micro-USB connector to send serial data. D+ = Tx, D- =Rx. You also need to supply 5v as well otherwise it will power up but the motor won't turn. The port on the bottom of the motor marked "CRANE2" is one for communicating with it. The second port on the side is to connect a camera to to control other camera functions
 
