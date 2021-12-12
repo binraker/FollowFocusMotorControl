@@ -22,8 +22,11 @@ The motors use an STM32F411 as the main micro but it has been set to Read protec
 
 Inside the motor the following are the major features for anyone interested in writing their own firmware:
 The motor is run from a MP6536 with sense resistors on 2 phases going to a dual opamp to ADC_IN0 and ADC_IN1 so it can work out power usage or torque. This is controlled by TIMER3_CH2, 3 and 4. 
+
 Position feedback is with the Infineon TLI5012B E1000 magnetic encoder of the back of the drive motor. The USB-OTG port is connected to the side port to connect to host a camera for control and when the switch is in the upgrade position, this becomes a USB device exposing a serial port and a drive. 
+
 USART1_TX and USART1_RX pins are connected to the other usb port to provide comms. 
+
 There is a MP2639A for the 2 cell lithium battery, a 300mAh 7.4V 602030. If the internal LiPo isn't charged enought the motor won't turn. all the uunits i have now have dead batteroes so replacing them is necessary to get the units working. (You can feed in 7.4V from a bench PSU to the battery terminals and it will work for testing)
 
 Even though it has the hardware to detect a stall of the output gear there doesn’t appear to be any indication that does anything to alert the controller or user in the data it sends back. .
